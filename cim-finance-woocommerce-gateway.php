@@ -67,7 +67,7 @@ function wc_cim_finance_gateway_init() {
 			$this->icon               = apply_filters('cim_finance_icon', '');
 			$this->has_fields         = false;
 			$this->method_title       = __( 'CIM Finance', 'wc-cim-finance-gateway' );
-			$this->method_description = __( 'Allows CIM Finance payments.', 'wc-cim-finance-gateway' );
+			$this->method_description = __( 'Allows CIM Finance Applications.', 'wc-cim-finance-gateway' );
 		  
 			// Load the settings.
 			$this->init_form_fields();
